@@ -20,8 +20,6 @@ Tested on:
 * A Raspberry 400 (program), Debian GNU/Linux 11 (bullseye), gcc version 10.2.1 20210110 (Debian 10.2.1-6), OpenMP 4.5
 * MacOs 13.6.4 with xterm-256color (terminal);
 
-![alt text](./screenshots/ampl.jpg "Amplifier")
-
 Dependencies:
 =============
 
