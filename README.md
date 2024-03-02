@@ -18,6 +18,7 @@ Testing:
 
 Tested on:
 * A Raspberry 400 (program), Debian GNU/Linux 11 (bullseye), gcc version 10.2.1 20210110 (Debian 10.2.1-6), OpenMP 4.5
+* An i7 pc (program), Ubuntu 22.04.4 LTS, gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04),  OpenMP 4.5
 * MacOs 13.6.4 with xterm-256color (terminal);
 
 Dependencies:
