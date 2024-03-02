@@ -63,6 +63,7 @@
      if( pcl.isSet('l') && pcl.isSet('r') ){
         cerr << "Invalid args: -l and -r are mutually exclusive\n";
         printInfo(argv[0]);
+     }
 
      if(pcl.isSet('H')) printInfo(argv[0]);
      if(pcl.isSet('w')) width = stoi(pcl.getValue('w'));
