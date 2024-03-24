@@ -10,7 +10,7 @@ mandelbrot256.o: mandelbrot256.cpp  mandelbrot256.hpp
 	g++ -c $(OPTS)  $(OPENMT) -o $@  $<
 
 mandelbrot.o: mandelbrot.cpp
-	g++ -c $(OPTS)  $(OPENMT) -o $@  mandelbrot.cpp 
+	g++ -c $(OPTS)  $(OPENMT) -o $@  $<
 
 mandelbrot: mandelbrot.o mandelbrot256.o parseCmdLine.o
 	g++ $(OPTS)   $(OPENMT) -o $@  $?
